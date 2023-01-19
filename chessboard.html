@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE</title>
+</head>
+<body>
+    <html>
+ <head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <style id="compiled-css" type="text/css">
+#main {<!--  ww w.j ava 2  s. co  m-->
+   width:100%;
+   height:auto;
+}
+
+
+.boardWrapper {
+   margin-left:auto;
+   margin-right:auto;
+   width:561px;
+   height:561px;
+}
+
+.board {
+   table-layout:fixed;
+   border:none;
+   border-collapse:collapse;
+   border-spacing:0px;
+   height:100%;
+   width:100%;
+}
+
+table.board tr td {
+   border:2px solid #091200e8;
+}
+
+table.board tr:nth-of-type(odd) td:nth-of-type(odd),
+table.board tr:nth-of-type(even) td:nth-of-type(even) {
+   background-color:aqua;
+}
+
+table.board tr:nth-of-type(even) td:nth-of-type(odd),
+table.board tr:nth-of-type(odd) td:nth-of-type(even) {
+   background-color:whitesmoke;
+}
+</style> 
+ </head> 
+ <body> 
+  <div id="main"> 
+   <div class="boardWrapper"> 
+    <table role="grid" class="board" id="chessBoard"> 
+     <tbody> 
+      <tr> 
+       <th id="rank_0"></th> 
+      <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       
+      </tr> 
+      <tr> 
+       <th id="rank_1"></th> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+      </tr> 
+      <tr> 
+       <th id="rank_2"></th> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+      </tr> 
+      <tr> 
+       <th id="rank_3"></th> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+      </tr> 
+      <tr> 
+       <th id="rank_4"></th> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+      </tr> 
+      <tr> 
+       <th id="rank_5"></th> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+      </tr> 
+      <tr> 
+       <th id="rank_6"></th> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+      </tr> 
+      <tr> 
+       <th id="rank_7"></th> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+       <td>O</td> 
+       <td>X</td> 
+    </tr> 
+    <tr> 
+     <th></th> 
+     <th id="file_0"></th> 
+     <th id="file_1"></th> 
+     <th id="file_2"></th> 
+     <th id="file_3"></th> 
+     <th id="file_4"></th> 
+     <th id="file_5"></th> 
+     <th id="file_6"></th> 
+     <th id="file_7"></th> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </div> 
+</div>  
+</body>
+</html>
+</body>
+</html>
