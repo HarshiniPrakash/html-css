@@ -1,5 +1,5 @@
 let a=10;
-let b=12;
+let b=22;
 let c=5;
 let d=2;
 {
